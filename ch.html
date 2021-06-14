@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+<title>ADD STUDENT</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="deconav.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js">
+</script>
+</head>
+
+<nav class="navbar navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+	<img src="logomu.jpg"></img>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+	  <li><a href="file:///C:/Users/GANESH%20SHETTY/Desktop/IP/login.html"> Admins Portal</a></li>
+      <li><a href="file:///C:/Users/GANESH%20SHETTY/Desktop/IP/login.html"> Students portal</a></li>
+      <li><a href="file:///C:/Users/GANESH%20SHETTY/Desktop/IP/login.html">Teacher's Portal</a></li>
+      <li><a href="file:///C:/Users/GANESH%20SHETTY/Desktop/IP/login.html">Librarian's Portal</a></li>
+    </ul>
+  </div> 
+</nav>
+
+<body>
+<div class="header">
+<h1>ADD STUDENT</h1>
+</div>
+<form action="addstu.php" method="POST">
+  <table>
+  <tr>
+    <td>Rollno :</td>
+    <td><input type="text" name="Rollno" class="textInput" required></td>
+   </tr>
+   <tr>
+    <td>Name :</td>
+    <td><input type="text" name="username" class="textInput" required></td>
+   </tr>
+   <tr>
+    <td>Password :</td>
+    <td><input type="password" name="password" class="textInput" required></td>
+   </tr>
+   <tr>
+	<td>Password again:</td>
+	<td><input type="password" name="password2" class="textInput"></td>
+   </tr>
+   <tr>
+    <td>Gender :</td>
+    <td><input type="text" name="gender" class="textInput" required>
+    </td>  
+   </tr>
+   <tr>
+    <td>Email :</td>
+    <td><input type="email" name="email" class="textInput" required></td>
+   </tr>
+	<tr>
+    <td>Phone Code :</td>
+    <td><input type="text" name="phoneCode" class="textInput" required></td>
+   </tr>   
+   <tr>
+    <td>Phone no :</td>
+    <td><input type="text" name="phone" class="textInput" required></td>
+   </tr>
+   <tr>
+    <td><input type="submit" name="register_btn" value="Submit"></td>
+   </tr>
+  </table>
+ </form>
+
+</body>
+</html>

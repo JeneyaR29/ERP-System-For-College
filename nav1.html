@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="deconav.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js">
+</script>
+</head>
+
+<body background="mumuni.jpg">
+
+<nav class="navbar navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+	<img src="logomu.jpg"></img>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+	  <li><a href="file:///C:/Users/GANESH%20SHETTY/Desktop/IP/login.html"> Admins Portal</a></li>
+      <li><a href="file:///C:/Users/GANESH%20SHETTY/Desktop/IP/login.html"> Students portal</a></li>
+      <li><a href="file:///C:/Users/GANESH%20SHETTY/Desktop/IP/login.html">Teacher's Portal</a></li>
+      <li><a href="file:///C:/Users/GANESH%20SHETTY/Desktop/IP/login.html">Librarian's Portal</a></li>
+    </ul>
+  </div>
+</nav>
+<img src="mumuni.jpg" alt="University Campus" height=500 width=800 hspace="300" ></img>
+<i><b><h1 align="center" style = "font-family:georgia,garamond,serif;"> WELCOME TO MUMBAI UNIVERSITY </h1></b></i>
+<p align="center" > The University of Mumbai (known earlier as University of Bombay) is one of the oldest and premier Universities in India. It was established in 1857 consequent to 'Wood's Education Dispatch drafted by Charles Wood in 1854. University of Mumbai was established along with University of Madras and University of Calcutta.
+'University of Bstyle = "font-family:georgia,garamond,serif;font-size:"ombay' was renamed as 'University of Mumbai' through notification issued by the Government of Maharashtra and published in the Government Gazette dated 4th September, 1996.
+
+The University has always given its best to the country in general and to the city of Mumbai in particular by enthusiastically contributing to various academic, research and social initiatives.
+
+
+Initially, the University concentrated its efforts on offering undergraduate courses. Later, University focus moved to establishing and enriching Post-Graduate teaching and research initiatives. This resulted in the establishment of the University Departments beginning with the School of Sociology and Civics & Politics. The independence of the country led to the re-organization of the functions and powers of the University with the passing of the Bombay University Act of 1953. University has also established its name in industrial collaborations and runs various professional courses.
+
+University of Mumbai has been accredited with 'Five Star' status by the National Assessment and Accreditation Council (NAAC). It has two campuses of area 230 acres and 13 acres. It also has sub-centres at Thane, Kalyan and Ratnagiri. University of Mumbai is one of the largest Universities in world in terms of number of Student enrolled very year. More than 700 Colleges and Institutions are affiliated with University of Mumbai.
+
+University of Mumbai has excelled in sports, cultural and out-reach activities. Many departments of University of Mumbai are recognized under various national programs, such as SAP/CAS/ DRS/DSA / COSIST / FIST.
+</p>
+<script type="text/javascript"> 
+var users = [
+    { username: 'user1', password: 'pass1' },
+    { username: 'user2', password: 'pass2' },
+    { username: 'user3', password: 'pass3' }
+];
+
+var button = document.getElementById('login');
+
+button.onclick = function() {
+   var username = document.getElementById('username').value;
+   var password = document.getElementById('password').value; 
+
+   for (var i = 0; i < users.length; i++) {
+      if(username == users[i].username && password == users[i].password) {
+         window.location.href = 'https://www.google.co.in/';
+         break;
+      }else{
+         alert('You are trying to break in!');
+      }
+   }
+}
+)
+</body>
+</html>
